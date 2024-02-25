@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .top{
+            border: 2px solid black;
+            /* height: 300px; */
+            display: grid;
+            grid-template-columns: repeat(6,100px);
+            grid-template-rows: 100px 100px 100px 100px;
+            justify-content: space-evenly;
+            gap: 30px;
+            /* width:820px; */
+            background-color: green;
+          
+
+
+        }
+        .bottom{
+            background-color: brown;
+        }
+        .c1{
+          
+           background-color: red;
+            
+            grid-column-start: 2;
+            grid-column-end: 6;
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+
+
+
+        }
+        
+        .c2{
+
+           grid-row-start: 1;
+           grid-row-end: 7;
+           background-color: red;
+        }
+        .c3{
+        
+            
+            grid-row-start: 3;
+            grid-row-end: 7;
+            background-color: red;
+
+        }
+        .c4{
+            background-color: red;
+            grid-row-start: 3;
+            grid-row-end: 7;
+
+        }
+        .c5{
+            background-color: red;
+            grid-row-start: 3;
+            grid-row-end: 7;
+
+
+        }
+        .c6{
+            background-color: red;
+            grid-row-start: 3;
+            grid-row-end: 7;
+
+
+        }
+
+img{height: 100%;
+width: 100%;}
+    </style>
+</body>
+<div class="top">
+    <div class="c1"><img src="../Assests/images/flower.jpg"></div>
+    <div class="c2"><img src="../Assests/images/flower.jpg"></div>
+    <div class="c3"><img src="../Assests/images/flower.jpg"></div>
+    <div class="c4"><img src="../Assests/images/flower.jpg"></div>
+    <div class="c5"><img src="../Assests/images/flower.jpg"></div>
+    <div class="c6"><img src="../Assests/images/flower.jpg"></div>
+</div>
+
+</html>
